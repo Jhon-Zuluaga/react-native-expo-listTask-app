@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# 📝 ListTask App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile notes application built with **React Native** and **Expo Router**, released to production as an Android APK via EAS Build.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- ✅ Create, edit and delete notes
+- 📅 Date picker for note scheduling
+- ⭐ Mark notes as important (always shown first)
+- 🗂️ Auto-sort notes by date
+- 📄 Export notes as PDF and share them
+- 💾 Local storage with AsyncStorage
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Run locally
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+Make sure you have **Node.js** and **Expo CLI** installed.
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/Jhon-Zuluaga/listTask-app.git
+
+# Navigate to the project folder
+cd listTask-app
+
+# Install dependencies
+npm install --legacy-peer-deps
+
+# Start the development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then scan the QR code with the **Expo Go** app on your phone.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🛠️ Built With
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Expo Router](https://expo.github.io/router/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [expo-print](https://docs.expo.dev/versions/latest/sdk/print/)
+- [expo-sharing](https://docs.expo.dev/versions/latest/sdk/sharing/)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 👤 Author
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Jhon Zuluaga**  
+[@Jhon-Zuluaga](https://github.com/Jhon-Zuluaga)
